@@ -255,8 +255,7 @@ h1, h3 {
     padding: 0;
     list-style: none;
 } ul.p1 li {
-    margin: 0.4rem 0;
-    padding: 0.6rem 6vw;
+    padding: 0.5rem 6vw;
     border-radius: 0.2rem;
 }
 
