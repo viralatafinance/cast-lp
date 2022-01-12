@@ -84,7 +84,7 @@ img {
 }
 
 
-.mobile_hidden, .doggo01.mobile_hidden {
+.mobile_hidden {
     display:none;
 }
 
@@ -369,9 +369,9 @@ form {
 
 
     
-    .desktop_hidden, .desktop_hidden.doggo01 {
+    .desktop_hidden {
         display:none;
-    } .mobile_hidden, .doggo01.mobile_hidden {
+    } .mobile_hidden {
         display:initial;
     }
 
