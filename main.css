@@ -112,9 +112,9 @@ header {
     transform:scale(1.1);
 } .social_menu a {
     width: clamp(1.1rem, 7vw, 1.4rem);
-    height: clamp(1.1rem, 4vw, 1.3rem);
+    height: clamp(1.1rem, 4vw, 1.2rem);
     display: block;
-    margin: 0 0.6rem;
+    padding: 0 clamp(0.4rem, 1vw, 0.6rem);
     transition: transform 0.8s ease;
 } .social_menu img {
     object-fit: contain;
@@ -122,6 +122,9 @@ header {
     height:100%;
 }
 
+.intro_ctnr {
+
+}
 
 .intro_text {
     width: clamp(15rem, 80vw, 43rem);
@@ -137,7 +140,7 @@ header {
     font-weight: 900;
     display: block;
     text-align: center;
-    margin: 0 0 6rem 0;
+    margin: 0 0 13rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +165,7 @@ h1, h3 {
 .doggo01 {
     display: block;
     margin: 3rem 0 0 0;
-    box-shadow: 0 -2rem 2rem 1rem var(--c1);
+    box-shadow: 0 -1rem 2rem 0rem var(--c1);
 } .parallax_img {
     background-color: var(--c1);
     z-index: 2;
@@ -177,7 +180,7 @@ h1, h3 {
     background-attachment: fixed;
     display: inline-block;
     width: 100%;
-    padding: 16rem 0 3rem 0;
+    padding: 6rem 0 3rem 0;
 } .section2 h2 {
     color: var(--c4-a);
     font-size: clamp(1.8rem, 8vw, 3rem);
@@ -280,9 +283,9 @@ form {
     margin: 0 auto 7rem auto;
     width: clamp(18rem, 85vw, 35rem);
 } input {
-    font-size: clamp(0.7rem, 3.5vw, 1rem);
+    font-size: clamp(0.7rem, 3vw, 1rem);
     width: 100%;
-    border: 2px solid var(--c4);
+    border: 3px solid var(--c4);
     border-radius: 0.3rem;
     padding: 0 0.4rem;
     line-height: clamp(3.5rem, 3.5vw, 1rem);
@@ -291,15 +294,15 @@ form {
     color: var(--c2);
     text-align: center;
     font-family: 'Avant Garde', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     transition: box-shadow 0.5s ease;
 } input::placeholder {
     color:#aaa;
     font-family: 'Avant Garde', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: clamp(0.7rem, 3.5vw, 1rem);
-    letter-spacing: 3px;
+    font-size: clamp(0.7rem, 3vw, 1rem);
+    letter-spacing: 2px;
 } input:focus {
     box-shadow: 0 0 2rem -0.6rem var(--c4);
     outline:none;
