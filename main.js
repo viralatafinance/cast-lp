@@ -38,7 +38,7 @@ function success() {
 
 const handleSubmit = (e) => {
   e.preventDefault()
-  let myForm = document.getElementById('top_form');
+  let myForm = document.getElementById('form');
   let formData = new FormData(myForm)
   fetch('/', {
     method: 'POST',
