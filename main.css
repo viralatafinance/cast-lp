@@ -473,6 +473,7 @@ form {
         text-align: left;
         max-width: 75rem;
         justify-content: space-evenly;
+        gap: 3vw;
     } .bullets article {
         width: 30%;
     } .bullets h3 {
