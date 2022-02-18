@@ -474,8 +474,6 @@ form {
         max-width: 75rem;
         justify-content: space-evenly;
         gap: 3vw;
-    } .bullets article {
-        width: 30%;
     } .bullets h3 {
         margin: 0 0 1rem 0;
         font-size: clamp(1rem, 2vw, 2rem);
