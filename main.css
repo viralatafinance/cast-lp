@@ -6,8 +6,8 @@
     bottom: 0;
     left: 0;
     background-color: #070707;
-    z-index: 999;
-    transition: opacity 1.5s ease, visibility 1.5s ease;
+    z-index: 4;
+    transition: opacity 1.5s ease-in, visibility 1.5s ease-in;
     pointer-events: none;
 }
 
@@ -119,7 +119,8 @@ header {
 }
 
 .intro_ctnr {
-
+    z-index: 5;
+    position: relative;
 }
 
 .intro_text {
@@ -290,7 +291,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 3rem auto 8rem auto;
+    margin: 3rem auto 16vw auto;
     width: clamp(18rem, 85vw, 35rem);
 } input {
     font-size: clamp(0.7rem, 3vw, 1rem);
@@ -392,6 +393,7 @@ form {
         margin: -2rem auto 0 auto;
         align-items: self-start;
         padding: 0;
+        background-color: transparent;
     }
 
     .logo {
