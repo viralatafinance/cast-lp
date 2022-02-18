@@ -154,7 +154,7 @@ h1, h3 {
     letter-spacing: 0.4px;
     font-weight: 100;
     line-height: clamp(1.15rem, 6.2vw, 1.45rem);
-} h4 b {
+} h2 b, h4 b {
     color: #f3ffb4;
 }
 
