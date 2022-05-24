@@ -158,8 +158,8 @@
     
             <div class="form_ctnr">
                 <form id="form" name="contact" method="POST" data-netlify="true" autocomplete="off">
-                    <input type="text" name="name" placeholder="Nome da pessoa inspiradora!"/>
-                    <input type="text" name="contact" placeholder="Contato e/ou rede social"/>
+                    <input type="text" name="name" placeholder="Nome da pessoa inspiradora!" required/>
+                    <input type="text" name="contact" placeholder="Contato e/ou rede social" required/>
                     <button class="send cta" type="submit">ENVIAR</button>
                 </form>
     
@@ -202,7 +202,7 @@
         const submitBt = document.querySelector('.send');
 
         setTimeout(() => {
-            submitBt.innerHTML = "Job application sent. Thanks!"
+            submitBt.innerHTML = "Enviado. Valeu! ;)"
         }, 300);
 
         let allInputs = document.querySelectorAll('input');
