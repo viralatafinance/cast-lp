@@ -479,7 +479,7 @@ html,
     justify-content: center;
     box-shadow: 0 0.5rem var(--c1b), 0 -0.5rem var(--c1b), 0rem 0.5rem 4rem rgba(55,155,255,0.3);
     position: sticky;
-    top: 3rem;
+    top: clamp(5rem, 10vw, 10rem);
   } #form input {
     padding: 1rem 1.6rem;
     box-sizing: border-box;
