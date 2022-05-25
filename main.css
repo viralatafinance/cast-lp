@@ -120,18 +120,25 @@ html,
 
 
 
+  #loading_area {
+    position: fixed;
+    inset:0;
+    z-index: 3;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
 
 
-
-
-
-
-
-  .intro_sec {
+  .intro_sec, #loading_area {
     background-color:var(--c1);
     background-image: url(assets/texture04.jpg);
     background-image: -webkit-image-set(url(assets/texture04.jpg) 1x, url(assets/texture04.webp) 1x);
     background-size: cover;
+  }
+
+
+
+  .intro_sec {
     position: relative;
   }
 
@@ -283,7 +290,7 @@ html,
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-weight: 900;
-    padding: 0.9rem 1.6rem;
+    padding: 0.7rem 1.6rem;
     text-transform: uppercase;
     transition: filter 0.15s ease;
     text-shadow: unset;
@@ -530,7 +537,7 @@ footer {
   gap: 2rem;
   align-items: center;
   background: #000c1199;
-  height: clamp(55vh, 100vw, 62vh);
+  height: clamp(55vh, 100vw, 56vh);
 } footer .logo {
   margin-bottom: clamp(2rem, 5vw, 3rem);
 } footer nav {
@@ -608,11 +615,11 @@ footer {
     display:none;
   } .nav_ctnr {
     flex-direction: row;
-    gap: 3vw;
+    gap: 2vw;
   } .nav_ctnr a {
     border: 0.1rem solid #19D;
     margin: 0;
-    padding: 0.6rem clamp(0.6rem, 1vw, 1rem);
+    padding: 0.2rem clamp(0.6rem, 1vw, 1rem);
   } .nav_ctnr a, footer a {
     transition: background-color 0.5s ease;
     background-color: #ffffff00;
@@ -648,7 +655,7 @@ footer {
     margin: unset;
   } h1 {
     max-width: 90%;
-    font-size: clamp(10rem, 9vw, 11rem);
+    font-size: clamp(10rem, 9vw, 11.5rem);
   }
 
   .cta_ctnr {
@@ -747,6 +754,7 @@ footer {
   } .video_side_text > p {
     margin-bottom: 2rem;
     font-size: clamp(2rem, 3vw, 3rem);
+    color:#eee;
   } .video_ctnr {
     width: clamp(40rem, 28vw, 50rem);
   }
