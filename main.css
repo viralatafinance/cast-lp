@@ -315,6 +315,10 @@ html,
     gap: 3vw;
     max-width: 42rem;
   } .platforms a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: clamp(2.5rem, 8vw, 4rem);
     height: clamp(2.5rem, 7.5vw, 3.4rem);
     display: flex;
@@ -328,6 +332,55 @@ html,
     font-size: clamp(1.8rem, 6.2vw, 2.6rem);
     color: var(--c2b);
     text-shadow: -2px 1px rgb(0 0 0 / 40%);
+  } .platforms a::after, .cta::after {
+    position: absolute;
+    background-color: var(--light);
+    color: var(--c1);
+    font-size: 1.6rem;
+    line-height: 1em;
+    padding: 0.6rem 1.6rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-0.4rem);
+    transition: opacity 0.2s 0.06s ease, visibility 0.2s 0.06s ease, transform 0.2s 0.06s ease;
+    pointer-events: none;
+    font-weight: 900;
+  } .platforms a:hover:after, .cta:hover:after {
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(0);
+    z-index: 9;
+  } .platforms a::after {
+    top: 4rem;
+  } .cta::after {
+    top: 5rem;
+  }
+
+  .cta::after {
+    content:'Breve!'
+  } .youtube_anchor::after {
+    content:'Youtube'
+  } .spotify_anchor::after {
+    content:'Spotify'
+  } .apple_anchor::after {
+    content:'Apple'
+  } .deezer_anchor::after {
+    content:'Deezer'
+  } .google_anchor::after {
+    content:'Google Podcast'
+  } .castbox_anchor::after {
+    content:'Castbox'
+  } .amazon_anchor::after {
+    content:'Amazon Music'
+  } .platforms a.indisponivel {
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+  } .platforms a.indisponivel::after {
+    content:'Breve!'
+  } .platforms a.indisponivel:hover {
+    opacity: 0.38;
   }
 
 
@@ -655,7 +708,7 @@ footer {
     margin: unset;
   } h1 {
     max-width: 90%;
-    font-size: clamp(10rem, 9vw, 11.5rem);
+    font-size: clamp(10rem, 9vw, 11.2rem);
   }
 
   .cta_ctnr {
@@ -681,64 +734,11 @@ footer {
   } .platforms a {
     width: 3.1rem;
     height: 3rem;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0 0.6rem;
     transition: transform 0.4s ease;
   } .intro_sec .platforms {
     background-image: url(assets/texture04.jpg);
     background-size: 100vw;
-  } .platforms a::after {
-    top: 4rem;
-  } .cta::after {
-    top: 5rem;
-  } .platforms a::after, .cta::after {
-    position: absolute;
-    background-color: var(--light);
-    color: var(--c1);
-    font-size: 1.6rem;
-    line-height: 1em;
-    padding: 0.6rem 1.6rem;
-    text-align: center;
-    border-radius: 0.3rem;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-0.4rem);
-    transition: opacity 0.2s 0.06s ease, visibility 0.2s 0.06s ease, transform 0.2s 0.06s ease;
-    pointer-events: none;
-    font-weight: 900;
-  } .platforms a:hover:after, .cta:hover:after {
-    opacity: 1;
-    visibility: visible;
-    transform:translateY(0);
-    z-index: 9;
-  }
-
-  .cta::after {
-    content:'Breve!'
-  } .youtube_anchor::after {
-    content:'Youtube'
-  } .spotify_anchor::after {
-    content:'Spotify'
-  } .apple_anchor::after {
-    content:'Apple'
-  } .deezer_anchor::after {
-    content:'Deezer'
-  } .google_anchor::after {
-    content:'Google Podcast'
-  } .castbox_anchor::after {
-    content:'Castbox'
-  } .amazon_anchor::after {
-    content:'Amazon Music'
-  } .platforms a.indisponivel {
-    opacity: 0.75;
-    transition: opacity 0.3s ease;
-  } .platforms a.indisponivel::after {
-    content:'Breve!'
-  } .platforms a.indisponivel:hover {
-    opacity: 0.38;
   }
 
   .cast_bg {
