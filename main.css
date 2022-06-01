@@ -153,6 +153,7 @@ html,
 
   .corner {
     position: absolute;
+    z-index: 1;
     width: clamp(4rem, 13vw, 8rem);
   } .corner1 {
     top: 0;
@@ -370,6 +371,7 @@ html,
     right: 0;
     left: 0;
     background-image: url(assets/cast_bg.png);
+    background-image: -webkit-image-set(url(assets/cast_bg.jpg) 1x, url(assets/cast_bg.webp) 1x);
     background-size: contain;
     position: absolute;
     z-index: -1;
