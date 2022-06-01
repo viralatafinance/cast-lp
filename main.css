@@ -476,6 +476,7 @@ html,
   } .changing_txt p {
     background-color:var(--c3b);
     background-image: url(assets/texture05.jpg);
+    background-image: -webkit-image-set(url(assets/texture05.jpg) 1x, url(assets/texture05.webp) 1x);
     background-size: 42vh;
     display:inline;
   } .changing_txt p:not(:last-child) {
@@ -491,6 +492,7 @@ html,
     gap: 2rem;
     background-color: var(--c1);
     background-image: url(assets/texture04.jpg);
+    background-image: -webkit-image-set(url(assets/texture04.jpg) 1x, url(assets/texture04.webp) 1x);
     background-size: 100vh;
     border-radius: 1.2rem;
     width: clamp(25rem, 84vw, 35rem);
@@ -706,6 +708,7 @@ footer {
     transition: transform 0.4s ease;
   } .intro_sec .platforms {
     background-image: url(assets/texture04.jpg);
+    background-image: -webkit-image-set(url(assets/texture04.jpg) 1x, url(assets/texture04.webp) 1x);
     background-size: 100vw;
   }
 
