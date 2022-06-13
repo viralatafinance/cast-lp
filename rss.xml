@@ -13,8 +13,8 @@ xmlns:media="http://search.yahoo.com/mrss/">
         <link>http://podcast.viralata.finance</link>
         <description>Todo vira-lata tem um valor imenso. Ele não sabe de onde veio ou pra onde vai, mas conhece seu objetivo nesse mundão: fazer diferença na vida de alguém. Nosso propósito é te ajudar a crescer e te mostrar o seu real valor! Se você se interessa por histórias de desafio e superação, se liga no ViralataCast!</description>
         <language>pt-br</language> 
-        <atom:link href="http://podcast.viralata.finance/podcast.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Jun 2022 00:00:01 GMT</pubDate>
+        <atom:link href="http://podcast.viralata.finance/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 22 Jun 2022 03:00:00 GMT</pubDate>
 
         <itunes:owner>
             <itunes:email>team@viralata.finance</itunes:email>
@@ -31,7 +31,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <description>Primeiro episódio do ViralataCast.</description>
             <enclosure url="http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3" length="52400128" type="audio/mpeg" />
             <guid>http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3</guid>
-            <pubDate>Wed, 22 Jun 2022 00:00:01 GMT</pubDate>
+            <pubDate>Wed, 22 Jun 2022 03:00:00 GMT</pubDate>
 
             <itunes:order>1</itunes:order>
         </item>
