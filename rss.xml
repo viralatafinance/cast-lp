@@ -23,7 +23,9 @@ xmlns:media="http://search.yahoo.com/mrss/">
         <itunes:image href="http://podcast.viralata.finance/podcast/cover.jpg"/>
         <itunes:author>Viralata</itunes:author>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:category text="Society &amp; Culture"></itunes:category>
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Personal Journals" />
+        </itunes:category>
 
         <item>
             <title>Mc Maha | ViralataCast #1</title>
