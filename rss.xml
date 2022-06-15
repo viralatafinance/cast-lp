@@ -37,6 +37,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <pubDate>Wed, 22 Jun 2022 03:00:00 GMT</pubDate>
 
             <itunes:order>1</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg"/>
         </item>
 
     </channel>
