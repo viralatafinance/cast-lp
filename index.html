@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="./main.css">
     <script src="./main.js" defer></script>
+    <script src="./load.js" defer></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,46 +28,6 @@
     <link rel="alternate" type="application/atom+xml" title="RSS Feed for podcast.viralata.finance" href="rss.xml" />
 
     <style>
-
-        html {
-          font-size: 10px;
-          scroll-behavior: smooth;
-        }
-      
-        #loading_area {
-          position: fixed;
-          inset:0;
-          z-index: 3;
-          pointer-events: none;
-          transition: opacity 0.3s ease, visibility 0.3s ease;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: clamp(1.5rem, 6vw, 2.5rem);
-        }
-      
-        body, #loading_area {
-          background-color: var(--dark);
-          color: var(--light);
-          background-image: url(assets/texture01.jpg);
-          background-image: -webkit-image-set(url(assets/texture01.jpg) 1x, url(assets/texture01.webp) 1x);
-          background-size: 14rem;
-          letter-spacing: 0.15em;
-          /* overflow-x: hidden;
-          overflow-y: scroll; */
-        }
-
-        @font-face {
-        font-family: "Acumin";
-        font-weight: 600;
-        src: url("assets/fonts/Acumin-Pro-ExtraCond-Bold.otf");
-        }
-
-        @font-face {
-        font-family: "Acumin";
-        font-weight: 900;
-        src: url("assets/fonts/Acumin-Pro-ExtraCond-Black.otf");
-        }
       
     </style>
 </head>
@@ -108,13 +69,13 @@
                     <a href="#indique-um-convidado">Indique um convidado!</a>
                 </div>
 
-                <a class="cta tooltip">ASSISTA EM BREVE!</a>
+                <a class="cta" href="#primeira-temporada">Assista aqui!</a>
             </nav>
         </header>
 
         <div class="intro_flex">
             <div class="intro_content width1">
-                <h1><span id="h1_changing_word">Desperte</span><span class="typing_indicator"></span> o<br>vira-lata que existe <span class="dark_text">dentro de você!</span></h1>
+                <h1 class="main_h1"><span id="h1_changing_word">Desperte</span><span class="typing_indicator"></span> o<br>vira-lata que existe <span class="dark_text">dentro de você!</span></h1>
     
                 <h2>O podcast da Viralata nasceu para dar voz e visibilidade às histórias que  inspiram a seguir seus sonhos.</h2>
     
@@ -124,42 +85,63 @@
                     <p><span class="or_platforms">Assista nas plataformas:</span></p>
     
                     <div class="platforms">
-                        <a class="youtube_anchor indisponivel"><img src="assets/yt-logo.svg" alt="Escute no Youtube" draggable="false"></a>
+                        <a class="youtube_anchor">
+                            <img src="assets/yt-logo.svg" alt="Escute no Youtube" draggable="false">
+                            <span>Youtube</span>
+                        </a>
 
-                        <a class="spotify_anchor indisponivel"><img src="assets/spotify_logo.svg" alt="Escute no Spotify" draggable="false"></a>
+                        <a class="spotify_anchor indisponivel">
+                            <img src="assets/spotify_logo.svg" alt="Escute no Spotify" draggable="false">
+                            <span>Spotify</span>
+                        </a>
 
-                        <a class="apple_anchor indisponivel"><img src="assets/apple_logo.svg" alt="Escute no iTunes" draggable="false"></a>
+                        <a class="apple_anchor indisponivel">
+                            <img src="assets/apple_logo.svg" alt="Escute no iTunes" draggable="false">
+                            <span>Apple</span>
+                        </a>
 
-                        <a class="deezer_anchor indisponivel"><img src="assets/deezer_logo.svg" alt="Escute no Deezer" draggable="false"></a>
+                        <a class="deezer_anchor indisponivel">
+                            <img src="assets/deezer_logo.svg" alt="Escute no Deezer" draggable="false">
+                            <span>Deezer</span>
+                        </a>
 
-                        <a class="google_anchor indisponivel"><img src="assets/google_podcasts.svg" alt="Escute no Google Podcasts" draggable="false"></a>
+                        <a class="google_anchor indisponivel">
+                            <img src="assets/google_podcasts.svg" alt="Escute no Google Podcasts" draggable="false">
+                            <span>Google</span>
+                        </a>
 
-                        <a class="castbox_anchor indisponivel"><img src="assets/castbox_logo.svg" alt="Escute no Castbox" draggable="false"></a>
+                        <a class="castbox_anchor indisponivel">
+                            <img src="assets/castbox_logo.svg" alt="Escute no Castbox" draggable="false">
+                            <span>Castbox</span>
+                        </a>
 
-                        <a class="amazon_anchor indisponivel"><img src="assets/amazon_music_logo.svg" alt="Escute no Amazon Music" draggable="false"></a>
+                        <a class="amazon_anchor indisponivel">
+                            <img src="assets/amazon_music_logo.svg" alt="Escute no Amazon Music" draggable="false">
+                            <span>Amazon</span>
+                        </a>
                     </div>
                 </div>
             </div>
     
-            <div class="paper_doggo"></div>
+            <div class="paper_doggo" draggable="false"></div>
         </div>
     </section>
 
     <picture class="flag" loading="lazy" draggable="false">
         <source srcset="assets/flag.webp" type="image/webp">
         <source srcset="assets/flag.png" type="image/jpeg"> 
-        <img src="assets/flag.png" alt="bandeira do brasil estilizada">
+        <img src="assets/flag.png" alt="bandeira do brasil estilizada" draggable="false">
     </picture>
 
     <div class="cast_bg"></div>
 
-    <div id="proposito" class="quote_ctnr">
+    <section id="proposito" class="quote_ctnr">
         <q class="quote">Por <b>'complexo de vira-lata'</b> entendo eu a inferioridade em que o brasileiro se coloca, <b>voluntariamente</b>, em face do resto do mundo</q>
     
         <cite><i>- Nelson Rodrigues</i></cite>
-    </div>
+    </section>
 
-    <div class="VA_sec">
+    <section class="VA_sec">
         <div id="va1"></div>
         <div id="va2"></div>
         <div id="va3"></div>
@@ -168,17 +150,19 @@
             <source srcset="assets/doggo_mask.png" type="image/jpeg"> 
             <img src="assets/doggo_mask.png" alt="Doggo background">
         </picture>
-    </div>
+    </section>
 
-    <div class="video_sec">
+    <section class="video_sec">
         <div class="video_ctnr">
             <video src="assets/intro_video.mp4" controls loading="lazy" poster="assets/video_cover.jpg"></video>
-            <p>Conhece alguém com uma história especial?</p>
-            <a href="#indique-um-convidado" class="cta2">Indique um convidado!</a>
+            <div>
+                <p>Conhece alguém com uma história especial?</p>
+                <a href="#indique-um-convidado" class="cta2">Indique um convidado!</a>
+            </div>
         </div>
 
         <div class="video_side_text">
-            <p>O brasileiro vê como negativo aquele que deveria ser o <b>ponto forte de sua origem</b>. Tem comparação melhor? Vira-latas são conhecidos por sua <b>astúcia, resistência e adaptabilidade</b>. Não é diferente com nós, brasileiros. 😎</p>
+            <p>O brasileiro vê como negativo aquele que deveria ser o <b>ponto forte de sua origem</b>. Tem comparação melhor? Vira-latas são conhecidos por sua <b>astúcia, resistência e adaptabilidade</b>, e com a gente não é diferente. 😎</p>
 
             <p>Todo vira-lata tem um valor imenso. Ele não sabe de onde veio ou pra onde vai, mas conhece seu objetivo nesse mundão: <b>fazer a diferença na vida de alguém.</b></p>
 
@@ -190,25 +174,154 @@
                 <p><span class="or_platforms">Assista nas plataformas:</span></p>
 
                 <div class="platforms">
-                    <a href="" class="youtube_anchor indisponivel"><img src="assets/yt-logo.svg" alt="Escute no Youtube" draggable="false"></a>
+                    <a href="" class="youtube_anchor">
+                        <img src="assets/yt-logo.svg" alt="Escute no Youtube" draggable="false">
+                        <span>Youtube</span>
+                    </a>
 
-                    <a href="" class="spotify_anchor indisponivel"><img src="assets/spotify_logo.svg" alt="Escute no Spotify" draggable="false"></a>
+                    <a href="" class="spotify_anchor indisponivel">
+                        <img src="assets/spotify_logo.svg" alt="Escute no Spotify" draggable="false">
+                        <span>Spotify</span>
+                    </a>
 
-                    <a href="" class="apple_anchor indisponivel"><img src="assets/apple_logo.svg" alt="Escute no iTunes" draggable="false"></a>
+                    <a href="" class="apple_anchor indisponivel">
+                        <img src="assets/apple_logo.svg" alt="Escute no iTunes" draggable="false">
+                        <span>Apple</span>
+                    </a>
 
-                    <a href="" class="deezer_anchor indisponivel"><img src="assets/deezer_logo.svg" alt="Escute no Deezer" draggable="false"></a>
+                    <a href="" class="deezer_anchor indisponivel">
+                        <img src="assets/deezer_logo.svg" alt="Escute no Deezer" draggable="false">
+                        <span>Deezer</span>
+                    </a>
 
-                    <a href="" class="google_anchor indisponivel"><img src="assets/google_podcasts.svg" alt="Escute no Google Podcasts" draggable="false"></a>
+                    <a href="" class="google_anchor indisponivel">
+                        <img src="assets/google_podcasts.svg" alt="Escute no Google Podcasts" draggable="false">
+                        <span>Google</span>
+                    </a>
 
-                    <a href="" class="castbox_anchor indisponivel"><img src="assets/castbox_logo.svg" alt="Escute no Castbox" draggable="false"></a>
+                    <a href="" class="castbox_anchor indisponivel">
+                        <img src="assets/castbox_logo.svg" alt="Escute no Castbox" draggable="false">
+                        <span>Castbox</span>
+                    </a>
 
-                    <a href="" class="amazon_anchor indisponivel"><img src="assets/amazon_music_logo.svg" alt="Escute no Amazon Music" draggable="false"></a>
+                    <a href="" class="amazon_anchor indisponivel">
+                        <img src="assets/amazon_music_logo.svg" alt="Escute no Amazon Music" draggable="false">
+                        <span>Amazon</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="indique-um-convidado" class="submission_sec">
+    <section id="primeira-temporada" class="episodes_sec">
+
+        <h3>Episódios</h3>
+        <h4>Primeira Temporada</h4>
+
+        <div class="content">
+            <a href="podcast/Mc-Maha.html" class="guest_card available">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="assets/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg" alt="Capa: Papo com Mc Maha | Viralatacast">
+                </picture>
+                
+                <div>
+                    <h5>#01 Mc Maha</h5>
+                    <p class="paragraph">Diretamente do Federal District! Às vezes o segredo tá na combinação do inusitado - dessa mistura surge aquilo que é diferente de todo o resto! E o Maha tira isso de letra.</p>
+                    <span><div></div>Assistir agora</span>
+                </div>
+            </a>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" alt="Capa: Papo com Gaby Sacmis | Viralatacast">
+                </picture>
+
+                <h5>#02 Gaby Sacmis</h5>
+                <p class="paragraph">Influencer apaixonada por gatos, resiliente, com uma energia maravilhosa e histórias pra contar, dos seus gatos às filosofadas com dinossauros!</p>
+                <span>Em breve 👀</span>
+            </article>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/003-Papo-com-Wahiboo-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/003-Papo-com-Wahiboo-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/003-Papo-com-Wahiboo-Viralatacast.jpg" alt="Capa: Papo com Wahiboo | Viralatacast">
+                </picture>
+
+                <h5>#03 Wahiboo</h5>
+                <p class="paragraph">William compartilha sua trajetória de resistência e relata as dificuldades que o trouxeram até o Brasil, onde continua sua jornada com o canal O Menino Sírio, no Youtube.</p>
+                <span>Em breve 👀</span>
+            </article>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg" alt="Capa: Papo com Marcos Lima | Viralatacast">
+                </picture>
+
+                <h5>#04 Marcos Lima</h5>
+                <p class="paragraph">Jornalista, Youtuber e palestrante, Marcos conta sua trajetória e seu cotidiano no canal Histórias de Cego, onde ensina novas formas de perceber o mundo.</p>
+                <span>Em breve 👀</span>
+            </article>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.jpg" alt="Capa: Papo com Marcinho Belota | Viralatacast">
+                </picture>
+
+                <h5>#05 Marcinho Belota</h5>
+                <p class="paragraph">“Respeitar os animais é uma obrigação, amá-los é um privilégio”. Ex atleta, protetor animal e com uma jornada enorme de muita luta pela causa animal.</p>
+                <span>Em breve 👀</span>
+            </article>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/006-Papo-com-Code-Club-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/006-Papo-com-Code-Club-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/006-Papo-com-Code-Club-Viralatacast.jpg" alt="Capa: Papo com Code Club | Viralatacast">
+                </picture>
+
+                <h5>#06 Code Club</h5>
+                <p class="paragraph">Conheça os integrantes do Code Club Brasil, projeto com a missão de dar a todas as crianças a chance de aprender programação, através de uma rede mundial de voluntariado.</p>
+                <span>Em breve 👀</span>
+            </article>
+
+            <article class="guest_card unavailable">
+
+                <picture loading="lazy" draggable="false">
+                    <source srcset="podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.webp" type="image/webp">
+                    <source srcset="podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.jpg" type="image/jpeg"> 
+                    <img src="podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.jpg" alt="Capa: Papo com Vivi Cake | Viralatacast">
+                </picture>
+
+                <h5>#07 Vivi Cake</h5>
+                <p class="paragraph">Nem tudo é o que parece! De Psicóloga a confeiteira renomada, Vivi assistiu suas obras e seu esforço sendo recompensados após viralizar nas redes.</p>
+                <span>Em breve 👀</span>
+            </article>
+            
+        </div>
+
+        <picture class="stamp" loading="lazy">
+            <source srcset="assets/stamp.webp" type="image/webp">
+            <source srcset="assets/stamp.png" type="image/png"> 
+            <img src="assets/stamp.png" alt="Selo Viralata" draggable="false">
+        </picture>
+    </section>
+
+    <section id="indique-um-convidado" class="submission_sec">
         <div class="submission_ctnr width1">
             <div class="submission_text">
                 <h3>O mundo quer te ouvir, vira-lata!</h3>
@@ -231,7 +344,7 @@
                 <span class="submit_warning"></span>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div class="social_menu" target="_blank">
@@ -292,7 +405,5 @@
     };
 
     document.querySelector("form").addEventListener("submit", handleSubmit);
-
-    document.querySelector('input').focus()
 </script>
 </html>
