@@ -359,12 +359,11 @@ html,
     font-size: 1.8rem;
     cursor: pointer;
     transition: background-color 0.4s ease;
-  } .platforms a:not(:first-child):hover {
+  } .platforms a:hover {
     background-color: #fff4;
     transition: background-color 0.05s ease;
   } .platforms a:first-child {
-    background-color:var(--light);
-    color:var(--c1);
+    border: 0.1rem solid var(--light);
     min-width: 5rem;
   } .platforms img {
     height: 62%;
@@ -378,6 +377,8 @@ html,
     border: 0.1rem solid #244;
   } .video_sec .platforms a:first-child {
     color:var(--light);
+  } .video_sec .platforms a:hover {
+    background: #1118;
   }
 
   .quote_ctnr {
