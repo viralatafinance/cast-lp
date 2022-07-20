@@ -416,7 +416,7 @@ html,
     flex-direction: column;
     gap: clamp(5rem, 5vw, 8rem);
     z-index: 2;
-  } .video_sec video {
+  } .episode_video {
     width: 100%;
     border-radius: 0.6rem;
     border: 0.1rem solid var(--darkb);
@@ -723,7 +723,7 @@ footer {
   gap: clamp(2rem, 2vw, 3rem);
   padding: 4rem 0;
   box-sizing: border-box;
-} .episode_ctnr video {
+} .episode_video {
   width: clamp(14rem, 91vw, 90rem);
   height: clamp(calc(14rem * 0.56), calc(91vw * 0.56), calc(90rem * 0.56));
   border-radius: 0.9rem;
@@ -1003,7 +1003,7 @@ footer {
   }
   .episode_ctnr {
     min-height: 100vh;
-  } .episode_ctnr video {
+  } .episode_video {
     width: clamp(14rem, 55vw, 85rem);
     height: clamp(calc(14rem * 0.56), calc(55vw * 0.56), calc(85rem * 0.56));
   } .episode_controls_ctnr {
@@ -1043,7 +1043,7 @@ footer {
 
 @media (max-height:600px) and (min-width:120vh) and (max-width:1000px) {
   
-  .episode_ctnr video {
+  .episode_video  {
     width: clamp(14rem, 62vw, 90rem);
     height: clamp(calc(14rem * 0.56), calc(62vw * 0.56), calc(90rem * 0.56));
   }
