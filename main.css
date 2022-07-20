@@ -416,7 +416,7 @@ html,
     flex-direction: column;
     gap: clamp(5rem, 5vw, 8rem);
     z-index: 2;
-  } .episode_video {
+  } .video_sec video {
     width: 100%;
     border-radius: 0.6rem;
     border: 0.1rem solid var(--darkb);
@@ -1043,7 +1043,7 @@ footer {
 
 @media (max-height:600px) and (min-width:120vh) and (max-width:1000px) {
   
-  .episode_video  {
+  .episode_video {
     width: clamp(14rem, 62vw, 90rem);
     height: clamp(calc(14rem * 0.56), calc(62vw * 0.56), calc(90rem * 0.56));
   }
