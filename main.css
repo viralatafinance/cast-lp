@@ -23,9 +23,7 @@
     background-image: url(assets/texture01.jpg);
     background-image: -webkit-image-set(url(assets/texture01.jpg) 1x, url(assets/texture01.webp) 1x);
     background-size: 14rem;
-    letter-spacing: 0.15em;
-    /* overflow-x: hidden;
-    overflow-y: scroll; */
+    letter-spacing: 0.1em;
   }
 
   @font-face {
@@ -157,7 +155,7 @@ html,
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    padding: 5rem 0 0 0;
+    padding: 4rem 0 0 0;
   } header nav {
     position: absolute;
     opacity: 0;
@@ -216,36 +214,59 @@ html,
   }
 
   .logo {
-    width: clamp(18rem, 73vw, 28rem);
+    width: clamp(18rem, 66vw, 28rem);
   }
 
   .hambt {
     width: clamp(2rem, 8vw, 3rem);
-    height: clamp(2rem, 8vw, 3rem);
+    height: clamp(2rem, 12vw, 5rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   } .hambt div {
     background-color: var(--light);
-    height: 16%;
-    border-radius: 0.15rem;
+    height: 5%;
+    animation: soundwave 0.6s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+  } .hambt div:nth-child(1) {
+    animation-delay: 0.2s;
+  } .hambt div:nth-child(2) {
+    animation-delay: 0.4s;
+  } .hambt div:nth-child(3) {
+    animation-delay: 0.9s;
+  } .hambt div:nth-child(4) {
+    animation-delay: 0.6s;
+  } .hambt div:nth-child(5) {
+    animation-delay: 1.2s;
+  } .hambt div:nth-child(6) {
+    animation-delay: 0.7s;
+  } .hambt div:nth-child(7) {
+    animation-delay: 0.4s;
   }
 
+  @keyframes soundwave {
+    0% {
+      transform:scale3d(1, 1, 1);
+    } 100% {
+      transform:scale3d(0.4, 1, 1);
+    }
+  }
 
   .intro_content {
-    margin: 4rem auto;
+    margin: 3rem auto 4rem;
   } .main_h1 {
-    font-size: clamp(5.2rem, 17.5vw, 11rem);
+    font-size: clamp(3.2rem, 11.8vw, 11rem);
     line-height: 0.9em;
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-weight: 900;
   } .intro_content h2 {
-    font-size: clamp(1.8rem, 6.2vw, 2.6rem);
+    font-size: clamp(1.8rem, 5.7vw, 2.6rem);
     max-width: 60rem;
     font-weight: 400;
+    width: 90%;
+    line-height: 1.2;
   } .typing_indicator {
-    height: clamp(3.8rem, 13vw, 8rem);
+    height: clamp(1.8rem, 9vw, 8rem);
     width: 0.35rem;
     background: var(--light);
     display: inline-block;
@@ -272,7 +293,7 @@ html,
   .paper_doggo {
     background-image: url(assets/paper_doggo.png);
     background-image: -webkit-image-set(url(assets/paper_doggo.png) 1x, url(assets/paper_doggo.webp) 1x);
-    height: clamp(20rem, 80vw, 35rem);
+    height: clamp(20rem, 75vw, 35rem);
     width: 100%;
     margin: 0 auto;
     background-size: contain;
@@ -329,9 +350,11 @@ html,
     max-width: 42rem;
     overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: clamp(0.4rem, 1vw, 0.8rem);
+    padding-bottom: clamp(0.6rem, 2vw, 0.8rem);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
   } .platforms::-webkit-scrollbar {
-    height:clamp(0.2rem, 1vw, 0.9rem);
+    height:clamp(0.1rem, 0.6vw, 0.9rem);
   } .platforms::-webkit-scrollbar-track {
     background: #fff3;
     border-radius: 0.15rem;
@@ -358,15 +381,20 @@ html,
     gap: clamp(0.6rem, 3vw, 0.8rem);
     font-size: 1.8rem;
     cursor: pointer;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease, border-color 0.4s ease;
+    border: 0.1rem solid var(--light);
   } .platforms a:hover {
     background-color: #fff4;
-    transition: background-color 0.05s ease;
+    transition: background-color 0.05s ease, border-color 0.05s ease;
+  } .platforms a:not(:first-child) {
+    border-color: transparent;
+  } .platforms a:not(:first-child):hover {
+    border-color: var(--light);
   } .platforms a:first-child {
-    border: 0.1rem solid var(--light);
     min-width: 5rem;
   } .platforms img {
     height: 62%;
+    max-width: 23%;
   } .or_platforms {
     display:block;
     font-size: clamp(1.8rem, 6.2vw, 2.6rem);
@@ -374,7 +402,8 @@ html,
     text-shadow: -2px 1px rgb(0 0 0 / 40%);
   } .video_sec .platforms a {
     background: #0008;
-    border: 0.1rem solid #244;
+  } .video_sec .platforms a:not(:first-child) {
+    border: 0.1rem solid #133
   } .video_sec .platforms a:first-child {
     color:var(--light);
   } .video_sec .platforms a:hover {
