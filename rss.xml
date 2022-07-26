@@ -28,16 +28,41 @@ xmlns:media="http://search.yahoo.com/mrss/">
         </itunes:category>
 
         <item>
-            <title>Mc Maha | ViralataCast #1</title>
+            <title>Mc Maha | ViralataCast #01</title>
+
             <link>http://podcast.viralata.finance</link>
-            <description>Primeiro episódio do ViralataCast.</description>
+
+            <description>Diretamente do Federal District! Hm… Você já deve ter ouvido isso. 😏 Nosso primeiro convidado viralizou em 2017, com uma combinação bem curiosa: Harry Potter com funk! Mc Maha é criativo, brinca com as palavras e é dono de um talento inegável. Bora bater um papo com ele?</description>
+
             <enclosure url="http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3" length="52400128" type="audio/mpeg" />
+
             <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg" lenght="932293" type="image/jpeg" />
+
             <guid>http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3</guid>
+
             <pubDate>Wed, 22 Jun 2022 03:00:00 GMT</pubDate>
 
             <itunes:order>1</itunes:order>
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg"/>
+        </item>
+
+        <item>
+            <title>Gaby Sacmis | ViralataCast #02</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>Você também é gateiro? 🐱 Gatos eram sagrados e convenhamos, ainda hoje seguimos venerando os felinos - há quem ainda diga que vão dominar o mundo. 👀 Nosso segundo episódio conta com Gaby Sacmis: Influencer, apaixonada por gatos, resiliente, com uma energia maravilhosa e histórias pra contar. Bora bater um papo com ela?</description>
+
+            <enclosure url="http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3" length="146348896" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" lenght="120327" type="image/jpeg" />
+
+            <guid>http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 27 Jun 2022 03:00:00 GMT</pubDate>
+
+            <itunes:order>2</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg"/>
         </item>
 
     </channel>
