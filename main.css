@@ -356,7 +356,7 @@ html,
   } .platforms::-webkit-scrollbar {
     height:clamp(0.1rem, 0.5vw, 0.8rem);
   } .platforms::-webkit-scrollbar-track {
-    background: rgb(28, 64, 195);
+    background: #235a;
     border-radius: 0.15rem;
   } .platforms::-webkit-scrollbar-thumb {
     outline: unset;
