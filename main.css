@@ -809,6 +809,7 @@ footer {
   left:0;
 } .episode_controls_ctnr sup {
   font-size: 0.75em;
+  color: var(--c2);
 } .episode_controls_ctnr .next {
   align-items: start;
   border-radius: 0.5rem 0 0 0.5rem;
@@ -1061,7 +1062,7 @@ footer {
     height: min-content;
     bottom: 15vh;
   } .episode_controls_ctnr a {
-    width: clamp(10rem, 15vw, 30rem);
+    width: clamp(10rem, 18vw, 32rem);
   } .episode_ctnr .cast_bg {
     height: 95vh;
     background-size: contain;
