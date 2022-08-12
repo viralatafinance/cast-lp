@@ -65,6 +65,44 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg"/>
         </item>
 
+        <item>
+            <title>Wahiboo | ViralataCast #03</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>Com energia contagiante, William compartilha sua trajetória de resistência e relata as dificuldades que o trouxeram até o Brasil, onde continua sua jornada com o canal O Menino Sírio, no Youtube. Bora bater um papo com ele?</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t1/003-Papo-com-William-Wahib-Viralatacast.mp3" length="146348896" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/003-Papo-com-William-Wahib-Viralatacast.jpg" lenght="120327" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t1/003-Papo-com-William-Wahib-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 3 Jul 2022 03:00:00 GMT</pubDate>
+
+            <itunes:order>3</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/003-Papo-com-William-Wahib-Viralatacast.jpg"/>
+        </item>
+
+        <item>
+            <title>Marcos Lima | ViralataCast #04</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>Jornalista, Youtuber e palestrante, Marcos conta sua trajetória e seu cotidiano no canal Histórias de Cego, onde ensina novas formas de perceber o mundo. Bora bater um papo com ele?</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t1/004-Papo-com-Marcos-Lima-Viralatacast.mp3" length="146348896" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg" lenght="120327" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t1/004-Papo-com-Marcos-Lima-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 10 Jul 2022 03:00:00 GMT</pubDate>
+
+            <itunes:order>4</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg"/>
+        </item>
+
     </channel>
 
 </rss>
