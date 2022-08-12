@@ -36,7 +36,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <enclosure url="http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3" length="52400128" type="audio/mpeg" />
 
-            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg" lenght="932293" type="image/jpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/001-Papo-com-Mc-Maha-Viralatacast.jpg" length="932293" type="image/jpeg" />
 
             <guid>http://podcast.viralata.finance/podcast/t1/001-Papo-com-Mc-Maha-Viralatacast.mp3</guid>
 
@@ -55,7 +55,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <enclosure url="http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3" length="146348896" type="audio/mpeg" />
 
-            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" lenght="120327" type="image/jpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" length="120327" type="image/jpeg" />
 
             <guid>http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3</guid>
 
@@ -74,7 +74,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <enclosure url="https://podcast.viralata.finance/podcast/t1/003-Papo-com-William-Wahib-Viralatacast.mp3" length="91487068" type="audio/mpeg" />
 
-            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/003-Papo-com-Wahiboo-Viralatacast.jpg" lenght="138244" type="image/jpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/003-Papo-com-Wahiboo-Viralatacast.jpg" length="138244" type="image/jpeg" />
 
             <guid>https://podcast.viralata.finance/podcast/t1/003-Papo-com-William-Wahib-Viralatacast.mp3</guid>
 
@@ -93,7 +93,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <enclosure url="https://podcast.viralata.finance/podcast/t1/004-Papo-com-Marcos-Lima-Viralatacast.mp3" length="80800437" type="audio/mpeg" />
 
-            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg" lenght="802816" type="image/jpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg" length="802816" type="image/jpeg" />
 
             <guid>https://podcast.viralata.finance/podcast/t1/004-Papo-com-Marcos-Lima-Viralatacast.mp3</guid>
 
