@@ -766,6 +766,8 @@ footer {
   border-radius: 30rem;
   box-shadow: 0 0 0 0.2rem var(--c1b), 0 0.6rem 0.6rem var(--dark);
   margin: 1rem 0 2rem;
+  position: relative;
+  z-index: 1;
 } .episode_controls_ctnr {
   display: flex;
   align-items: center;

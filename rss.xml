@@ -53,7 +53,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <description>Você também é gateiro? 🐱 Gatos eram sagrados e convenhamos, ainda hoje seguimos venerando os felinos - há quem ainda diga que vão dominar o mundo. 👀 Nosso segundo episódio conta com Gaby Sacmis: Influencer, apaixonada por gatos, resiliente, com uma energia maravilhosa e histórias pra contar. Bora bater um papo com ela?</description>
 
-            <enclosure url="http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3" length="146348896" type="audio/mpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/t1/002-Papo-com-Gaby-Sacmis-Viralatacast.mp3" length="98008864" type="audio/mpeg" />
 
             <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/002-Papo-com-Gaby-Sacmis-Viralatacast.jpg" length="120327" type="image/jpeg" />
 
@@ -101,6 +101,25 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <itunes:order>4</itunes:order>
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/004-Papo-com-Marcos-Lima-Viralatacast.jpg"/>
+        </item>
+
+        <item>
+            <title>Marcinho Belota | ViralataCast #05</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>“Respeitar os animais é uma obrigação, amá-los é um privilégio”. Ex atleta, protetor animal e com uma jornada enorme de muita luta pela causa animal. Bora bater um papo com ele?</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t1/005-Papo-com-Marcinho-Belota-Viralatacast.mp3" length="88606843" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.jpg" length="141329" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t1/005-Papo-com-Marcinho-Belota-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 17 Aug 2022 03:00:00 GMT</pubDate>
+
+            <itunes:order>5</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.jpg"/>
         </item>
 
     </channel>
