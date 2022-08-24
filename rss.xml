@@ -122,6 +122,25 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/005-Papo-com-Marcinho-Belota-Viralatacast.jpg"/>
         </item>
 
+        <item>
+            <title>Code Club | ViralataCast #06</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>Conheça integrantes do projeto que tem como missão dar a todas as crianças a chance de aprender programação através de umarede mundial de voluntariado! Bora bater um papo com eles?</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t1/006-Papo-com-Code-Club-Viralatacast.mp3" length="76365019" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/006-Papo-com-Code-Club-Viralatacast.jpg" length="139335" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t1/006-Papo-com-Code-Club-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 24 Aug 2022 03:00:00 GMT</pubDate>
+
+            <itunes:order>6</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/006-Papo-com-Code-Club-Viralatacast.jpg"/>
+        </item>
+
     </channel>
 
 </rss>
