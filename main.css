@@ -1011,6 +1011,8 @@ footer {
   } .episodes_sec .content {
     justify-content: left;
     gap: 3rem clamp(1rem, 1.4vw, 3rem);
+  } .episodes_sec .content:not(:last-of-type) {
+    margin-bottom: 6rem;
   } .episodes_sec article, .shadow_a {
     min-height: 45rem;
     display: block;
