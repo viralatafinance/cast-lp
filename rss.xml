@@ -160,24 +160,24 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.jpg"/>
         </item>
 
-        <!-- <item>
+        <item>
             <title>Carina Pirro | ViralataCast #08</title>
             
             <link>http://podcast.viralata.finance</link>
 
-            <description>Nem tudo é o que parece! De Psicóloga a confeiteira renomada, Vivi assistiu suas obras e seu esforço sendo recompensados após viralizar nas redes. Bora bater um papo com ela?</description>
+            <description>Nesse bate-papo, Carina Pirro nos conta sobre sua carreira, a terapia cognitivo comportamental, neurociência, psicanálise, e que, sobretudo, coloca seu principal objetivo de forma realista e com embasamento: existe uma busca incansável por tornar as pessoas mais felizes.</description>
 
-            <enclosure url="https://podcast.viralata.finance/podcast/t1/007-Papo-com-Vivi-Cake-Viralatacast.mp3" length="89552928" type="audio/mpeg" />
+            <enclosure url="https://podcast.viralata.finance/podcast/t2/008-Papo-com-Carina-Pirro-Viralatacast.mp3" length="87737501" type="audio/mpeg" />
 
-            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.jpg" length="135197" type="image/jpeg" />
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/t2/08-carina-pirro.jpg" length="804876" type="image/jpeg" />
 
-            <guid>https://podcast.viralata.finance/podcast/t1/007-Papo-com-Vivi-Cake-Viralatacast.mp3</guid>
+            <guid>https://podcast.viralata.finance/podcast/t2/008-Papo-com-Carina-Pirro-Viralatacast.mp3</guid>
 
-            <pubDate>Wed, 31 Aug 2022 03:00:00 GMT</pubDate>
+            <pubDate>Wed, 1 Feb 2023 03:00:00 GMT</pubDate>
 
-            <itunes:order>7</itunes:order>
-            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/007-Papo-com-Vivi-Cake-Viralatacast.jpg"/>
-        </item> -->
+            <itunes:order>8</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/08-carina-pirro.jpg"/>
+        </item>
 
     </channel>
 
