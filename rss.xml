@@ -179,6 +179,25 @@ xmlns:media="http://search.yahoo.com/mrss/">
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/08-carina-pirro.jpg"/>
         </item>
 
+        <item>
+            <title>Igor Tiosso | ViralataCast #09</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>O que podemos aprender com as últimas experiências com o mundo DeFi? 🤔 O que falta na cultura cripto pra ela alcançar enfim a adoção em massa? No 9º episódio batemos um papo com o Igor Tiosso, do canal Domingos com Crypto, sobre ideias que tocam a descentralização, as instituições e mais!</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t2/009-Papo-com-Igor-Tiosso-Viralatacast.mp3" length="97055868" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/t2/09-igor-tiosso.jpg" length="934903" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t2/009-Papo-com-Igor-Tiosso-Viralatacast.mp3</guid>
+
+            <pubDate>Wed, 8 Feb 2023 03:00:00 GMT</pubDate>
+
+            <itunes:order>8</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/09-igor-tiosso.jpg"/>
+        </item>
+
     </channel>
 
 </rss>
