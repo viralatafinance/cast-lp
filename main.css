@@ -441,10 +441,10 @@ html,
 
   .video_sec {
     width: clamp(25rem, 84vw, 126rem);
-    margin: 0 auto clamp(10rem, 30vw, 13rem);
+    margin: 0 auto clamp(10rem, 30vw, 18rem);
     display: flex;
-    flex-direction: column;
-    gap: clamp(5rem, 5vw, 8rem);
+    flex-direction: column-reverse;
+    gap: clamp(3rem, 8vw, 8rem);
     z-index: 2;
   } .video_sec video {
     width: 100%;
@@ -458,7 +458,7 @@ html,
     font-weight: 600;
   } .video_ctnr {
     text-align: center;
-    font-size: clamp(1.9rem, 6vw, 2.4rem);
+    font-size: clamp(1.9rem, 8vw, 3.4rem);
   } .video_ctnr p {
     display: block;
     margin: 3rem auto 2rem auto;
@@ -466,7 +466,7 @@ html,
     max-width: 26rem;
     text-shadow: var(--txt-shadow);
   } .video_ctnr a {
-    
+    font-size: clamp(1.6rem, 5.8vw, 2.8rem);
   } .video_side_text {
     flex: 1;
   } .video_side_text > p {
@@ -993,16 +993,12 @@ footer {
   } .video_ctnr {
     width: clamp(40rem, 28vw, 50rem);
   } .video_ctnr > div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin:1rem 0;
+    position: sticky;
+    top: 10vw;
   } .video_ctnr a {
     white-space: nowrap;
   } .video_ctnr p {
-    text-align: right;
-    margin:unset;
-    width: 50%;
   }
 
   .episodes_sec {

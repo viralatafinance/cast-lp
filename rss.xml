@@ -184,7 +184,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
             
             <link>http://podcast.viralata.finance</link>
 
-            <description>O que podemos aprender com as últimas experiências com o mundo DeFi? 🤔 O que falta na cultura cripto pra ela alcançar enfim a adoção em massa? No 9º episódio batemos um papo com o Igor Tiosso, do canal Domingos com Crypto, sobre ideias que tocam a descentralização, as instituições e mais!</description>
+            <description>O que podemos aprender com as últimas experiências com o mundo DeFi? O que falta na cultura cripto pra ela alcançar enfim a adoção em massa? No 9º episódio batemos um papo com o Igor Tiosso, do canal Domingos com Crypto, sobre ideias que tocam a descentralização, as instituições e mais!</description>
 
             <enclosure url="https://podcast.viralata.finance/podcast/t2/009-Papo-com-Igor-Tiosso-Viralatacast.mp3" length="97055868" type="audio/mpeg" />
 
@@ -194,8 +194,46 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
             <pubDate>Wed, 8 Feb 2023 03:00:00 GMT</pubDate>
 
-            <itunes:order>8</itunes:order>
+            <itunes:order>9</itunes:order>
             <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/09-igor-tiosso.jpg"/>
+        </item>
+
+        <item>
+            <title>Matheus Oliveira | ViralataCast #10</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>Nosso décimo episódio chega de forma reflexiva, que para alguns pode até ser um papo meio pesado. Mas é assim, a realidade costuma assustar, não é mesmo? Pra lidar melhor com ela, o conhecimento vem aí pra ser uma luz, afinal, o medo é o sentimento que temos do desconhecido.</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t2/010-Papo-com-Matheus-Oliveira-Viralatacast.mp3" length="101461389" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/t2/10-matheus-oliveira.jpg" length="801607" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t2/010-Papo-com-Matheus-Oliveira-Viralatacast.mp3</guid>
+
+            <pubDate>Tue, 14 Feb 2023 03:00:00 GMT</pubDate>
+
+            <itunes:order>10</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/10-matheus-oliveira.jpg"/>
+        </item>
+
+        <item>
+            <title>Mateus Ferreira | ViralataCast #11</title>
+            
+            <link>http://podcast.viralata.finance</link>
+
+            <description>O mestre da edição marca presença no 11º episódio do ViralataCast! Ao longo de mais de dez anos, o Mateus vem ensinando multidões com + de 1.000 aulas e tutoriais, que juntos ergueram um gigante no YouTube: o canal Brainstorm Tutoriais.</description>
+
+            <enclosure url="https://podcast.viralata.finance/podcast/t2/011-Papo-com-Mateus-Ferreira-Viralatacast.mp3" length="81235207" type="audio/mpeg" />
+
+            <enclosure url="http://podcast.viralata.finance/podcast/ep-covers/t2/11-mateus-ferreira.jpg" length="888544" type="image/jpeg" />
+
+            <guid>https://podcast.viralata.finance/podcast/t2/011-Papo-com-Mateus-Ferreira-Viralatacast.mp3</guid>
+
+            <pubDate>Tue, 14 Feb 2023 03:00:00 GMT</pubDate>
+
+            <itunes:order>11</itunes:order>
+            <itunes:image href="http://podcast.viralata.finance/podcast/ep-covers/t2/11-mateus-ferreira.jpg"/>
         </item>
 
     </channel>
